@@ -1,0 +1,83 @@
+@startuml Diagrama de Classes
+title Diagrama de Classes - Parcial (1ª Entrega)
+
+' ------------------ CLASSES ------------------
+
+class Usuario {
+  id: String
+  nome: String
+  email: String
+  telefone: String
+  dataCadastro: Date
+  estadoEmocional: String
+}
+
+class ContatoEmergencia {
+  id: String
+  nomeServico: String
+  tipoContato: String
+  informacaoContato: String
+  abrangencia: String
+  descricao: String
+  urlRedirecionamento: String
+}
+
+class RegistroEmergencia {
+  id: String
+  dataHora: DateTime
+}
+
+class PraticaSaudeMental {
+  id: String
+  nome: String
+  descricao: String
+  categoria: String
+  tempoEstimado: Integer
+  nivelDificuldade: String
+  fonteReferencia: String
+  aprovadoProfissional: Boolean
+  tagsPrincipais: String[]
+}
+
+class ConteudoPratica {
+  id: String
+  formato: String
+  recurso: String
+  descricaoAcessibilidade: String
+}
+
+class PreferenciaPraticaUsuario {
+  status: String
+  data: DateTime
+}
+
+class SugestaoPersonalizada {
+  id: String
+  dataGeracao: DateTime
+  relevancia: Integer
+  visualizada: Boolean
+}
+
+class ProfissionalSaude {
+  id: String
+  nome: String
+  especialidade: String
+  registro: String
+}
+
+' ------------------ RELACIONAMENTOS ------------------
+
+Usuario "1" -- "0..*" RegistroEmergencia
+ContatoEmergencia "1" -- "0..*" RegistroEmergencia
+
+PraticaSaudeMental "1" -- "1..*" ConteudoPratica
+
+Usuario "1" -- "0..*" PreferenciaPraticaUsuario
+PraticaSaudeMental "1" -- "0..*" PreferenciaPraticaUsuario
+PreferenciaPraticaUsuario ..> Usuario
+PreferenciaPraticaUsuario ..> PraticaSaudeMental
+
+Usuario "1" -- "0..*" SugestaoPersonalizada
+PraticaSaudeMental "1..*" -- "0..*" SugestaoPersonalizada
+ProfissionalSaude "1..*" -- "0..*" PraticaSaudeMental
+@enduml
