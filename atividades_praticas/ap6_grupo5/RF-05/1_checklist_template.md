@@ -18,5 +18,5 @@
 
 ---
 
-**Revisor:** [Nome do Revisor]  
-**Data da revisão:** [Data da Revisão]
+**Revisor:** Matheus Cascão
+**Data da revisão:** 28/05/2025
