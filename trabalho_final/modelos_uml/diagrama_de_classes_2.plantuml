@@ -1,0 +1,157 @@
+@startuml
+title Diagrama de Classes - Final (2ª Entrega)
+
+' ------------------ CLASSES ------------------
+
+class Usuario {
+  id: String
+  nome: String
+  email: String
+  telefone: String
+  dataCadastro: Date
+  estadoEmocional: String
+}
+
+class ContatoEmergencia {
+  id: String
+  nomeServico: String
+  tipoContato: String
+  informacaoContato: String
+  abrangencia: String
+  descricao: String
+  urlRedirecionamento: String
+}
+
+class RegistroEmergencia {
+  id: String
+  dataHora: DateTime
+}
+
+class PraticaSaudeMental {
+  id: String
+  nome: String
+  descricao: String
+  categoria: String
+  tempoEstimado: Integer
+  nivelDificuldade: String
+  fonteReferencia: String
+  aprovadoProfissional: Boolean
+  tagsPrincipais: String[]
+}
+
+class ConteudoPratica {
+  id: String
+  formato: String
+  recurso: String
+  descricaoAcessibilidade: String
+}
+
+class PreferenciaPraticaUsuario {
+  status: String
+  data: DateTime
+}
+
+class SugestaoPersonalizada {
+  id: String
+  dataGeracao: DateTime
+  relevancia: Integer
+  visualizada: Boolean
+}
+
+class ProfissionalSaude {
+  id: String
+  nome: String
+  especialidade: String
+  registro: String
+}
+
+class PerfilInteracaoUsuario {
+  frequenciaInteracao: String
+  tiposConteudoPreferidos: String[]
+  periodosVulnerabilidade: String[]
+  historicoEmocional: String[]
+  praticasFavoritas: String[]
+  horarioNotificacoes: String
+  tomAdaptativo: String
+}
+
+class FonteReferencia {
+  titulo: String
+  tipoFonte: String
+  dataPublicacao: Date
+  link: String
+  revisadoPorPares: Boolean
+}
+
+class FeedbackUsuario {
+  id: String
+  positivo: Boolean
+  comentario: String
+  dataHora: DateTime
+}
+
+class ProtocoloEmergencia {
+  id: String
+  nivelRisco: String
+  consentimento: Boolean
+  logNotificacoes: String
+}
+
+class ContatoConfiavel {
+  id: String
+  nome: String
+  relacao: String
+  metodoContato: String
+}
+
+class LogDeteccaoCrise {
+  id: String
+  dataHora: DateTime
+  criteriosDetectados: String[]
+  intervencaoRealizada: Boolean
+}
+
+class HistoricoMedico {
+  id: String
+  diagnosticos: String[]
+  medicamentos: String[]
+  alergias: String[]
+  historicoTratamento: String
+  documentosAnexados: FileReference[]
+  compartilhadoComProfissional: Boolean
+}
+
+class FileReference {
+  nomeArquivo: String
+  tipoArquivo: String
+  dataEnvio: DateTime
+}
+
+' ------------------ RELACIONAMENTOS ------------------
+
+Usuario "1" -- "0..*" RegistroEmergencia
+ContatoEmergencia "1" -- "0..*" RegistroEmergencia
+
+PraticaSaudeMental "1" -- "1..*" ConteudoPratica
+
+Usuario "1" -- "0..*" PreferenciaPraticaUsuario
+PraticaSaudeMental "1" -- "0..*" PreferenciaPraticaUsuario
+PreferenciaPraticaUsuario ..> Usuario
+PreferenciaPraticaUsuario ..> PraticaSaudeMental
+
+Usuario "1" -- "0..*" SugestaoPersonalizada
+PraticaSaudeMental "1..*" -- "0..*" SugestaoPersonalizada
+ProfissionalSaude "1..*" -- "0..*" PraticaSaudeMental
+
+Usuario "1" -- "1" PerfilInteracaoUsuario
+SugestaoPersonalizada "0..*" -- "1" FonteReferencia
+Usuario "1" -- "0..*" FeedbackUsuario
+SugestaoPersonalizada "1" -- "0..*" FeedbackUsuario
+
+Usuario "1" -- "0..1" ProtocoloEmergencia
+Usuario "1" -- "0..*" ContatoConfiavel
+ProtocoloEmergencia "1" -- "0..*" LogDeteccaoCrise
+
+Usuario "1" -- "1" HistoricoMedico
+HistoricoMedico "1" -- "0..*" FileReference
+@enduml
