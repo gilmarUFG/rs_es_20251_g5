@@ -1,0 +1,71 @@
+Commit;Author;Date;Message
+403354fb2c9105e63d06104449bb1ea44d5d387c Merge: 1082b0a 249fc56;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Mon Jun 30 10:06:53 2025 -0300;Merge branch 'estudante'
+249fc562e436d3c6a3e3b263a62212b438037bbe;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Mon Jun 30 09:43:45 2025 -0300;slides
+1082b0a4abae9531c9ebddab02977d321447712e;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 13:13:26 2025 -0300;update repository
+c6d5767d13bf403562e24aeeda40b7b78d2053bc;José Carlos Lee <josecarlos_lee@hotmail.com>;Thu May 29 22:55:24 2025 -0300;Delete atividades_supervisionadas/p7-aula12-josecarloslee.md
+a2d58462484b5b52540fe189604321bb4618163f;José Carlos Lee <josecarlos_lee@hotmail.com>;Thu May 29 22:53:52 2025 -0300;Create p7-aula12-josecarloslee.md
+0ddbed743422623d6facd22005416dd2f396d089;Leonardo Moreira <leonardomoreira@discente.ufg.br>;Thu May 29 16:23:42 2025 -0300;Create diagrama_de_classes_2.plantuml Submissão do diagrama de classes final (segunda iteração)
+141c1946a00d4de38e313d7c90005c73b21dc91f Merge: eafc961 d23ce21;akzvitor <vitor_eterno@outlook.com>;Wed May 28 17:52:09 2025 -0300;Merge branch 'estudante' of https://github.com/gilmarUFG/rs_es_20251_g5 into estudante
+eafc9612c5147cb5eeaedc60b49ce29adec2c99d;akzvitor <vitor_eterno@outlook.com>;Wed May 28 17:52:02 2025 -0300;adiciona requisitos 07 e 08 na ap6 e hu7 e hu8
+d23ce218b94a21b8967df7b77ee73bb48b3cab94;matheuscascao <matheusfranco23@hotmail.com>;Wed May 28 17:32:34 2025 -0300;feat: hu6
+9ef4cafa0fbc02ef32b329173228e161a638de4d;matheuscascao <matheusfranco23@hotmail.com>;Wed May 28 17:30:34 2025 -0300;RF-6
+7146a8bb08c1865b8ff8c55818b0de9f1871bdb8;matheuscascao <matheusfranco23@hotmail.com>;Wed May 28 17:23:10 2025 -0300;rf-05
+2dd8c16903ea5791d0c9c092d9e126203891c2af;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed May 28 17:00:24 2025 -0300;Create rastreabilidade_e_analise.md
+623461e39f417bfa7391dfb8b800d76a6343471e;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed May 28 16:59:36 2025 -0300;Create rastreabilidade_e_analise.md
+ff374d93e6c408d995be6e4c2b21c0eb21918afb;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed May 28 16:53:05 2025 -0300;Create simulacao_revisao.md
+d1b78c558ed327c09405133b8114aeac0624cfde;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed May 28 16:52:34 2025 -0300;Create simulacao_revisao.md
+59002d8fce02de73bab2a80490996b366686e6e2;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed May 28 16:33:39 2025 -0300;Create checklist.md
+32294b01b48d84ebeb62c512cd4adfc6f8668fb4;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed May 28 16:32:56 2025 -0300;Create checklist.md
+072c260667e5397fd861661bb69f858c36079914;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Wed May 28 16:25:33 2025 -0300;Delete atividades_supervisionadas/ap_aula9_g5.md
+ee914de6685b4fdfffdd2a00733eba6029fe266e;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Wed May 28 16:25:04 2025 -0300;changing directory ap_aula9_g5.md
+73d9d4dd11117d2d4d6834a33d3c4d16aec0d523;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Wed May 28 16:23:20 2025 -0300;rf 04
+cca5b692e67931ea47ef21830d489535db5001c4;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Wed May 28 16:22:54 2025 -0300;rnf 03
+55f8a8519675b10bae7f3ea49e39c99ae90cd9e3 Merge: 45bf00b a046454;Leonardo Moreira <moreira.leonardo83@outlook.com>;Wed May 28 16:21:30 2025 -0300;Merge branch 'estudante' of https://github.com/gilmarUFG/rs_es_20251_g5 into estudante
+45bf00b3fcdaa5f4c23d12d8e983ec6e76c0aab6;Leonardo Moreira <moreira.leonardo83@outlook.com>;Wed May 28 16:21:23 2025 -0300;Adicionando arquivos dos requisitos 1 e 2
+a046454523405c0cd102023499357b8dd9c57edc;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed May 28 16:19:56 2025 -0300;Create 10.md
+fe0129810a0d07641f3dffea1a306d193a3b3a16;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed May 28 16:19:43 2025 -0300;Create 09.md
+7df6e39e5a29f99fa698ad91fc1b61529924e5af;Vitor <vitor_eterno@outlook.com>;Thu May 15 19:44:21 2025 -0300;Create 05.md
+134b2178f36ca455ba0954e8ec0cd977cc22d207;José Carlos Lee <josecarlos_lee@hotmail.com>;Thu May 15 14:55:30 2025 -0300;Update 04.md
+dffb082868dc266445effab6961c1447c363feaa;José Carlos Lee <josecarlos_lee@hotmail.com>;Thu May 15 14:51:18 2025 -0300;Update 04.md
+dfa266b8f4186e3ed43dfc4210a1ed008ab49f13;José Carlos Lee <josecarlos_lee@hotmail.com>;Thu May 15 14:30:30 2025 -0300;Create 04.md
+613ca8f4bd3656d96aa40dda58aa2f608f58d506;matheuscascao <matheusfranco23@hotmail.com>;Wed May 14 22:57:52 2025 -0300;feat: hu-03
+0abc57047126cd4571e3ba610d80f762c493db5b;Leonardo Moreira <moreira.leonardo83@outlook.com>;Wed May 14 02:39:31 2025 -0300;Add: Diagrama de Classes Parcial
+1129ad929fc447f0c3cce01393e95e6a02506984;Leonardo Moreira <moreira.leonardo83@outlook.com>;Tue May 13 21:14:09 2025 -0300;Add: HU-02
+204f149e452ffa447964c7abc8fbcce7bea7e957;Leonardo Moreira <moreira.leonardo83@outlook.com>;Tue May 13 20:30:48 2025 -0300;Organizando o repositório
+888d13f90d43917b7ae7e349bf81d0e2c03b58f5;mentejoao <skhulzxd@gmail.com>;Mon May 12 19:03:22 2025 -0300;changing directory
+2e681e23477b8cc9d8fd600910419204586ff611;Leonardo Moreira <leonardomoreira@discente.ufg.br>;Fri May 9 17:12:53 2025 -0300;Update ap_aula9_g5.md  Add author column
+50ccb082e3504956744219d433c13dcf897bba9f;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Thu May 8 21:23:30 2025 -0300;Create ap_aula9_g5.md
+22dd2262bec7e62c3101a5c9298fa5212b8eacd1;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Thu May 8 20:58:40 2025 -0300;Create 01.md
+9ba19b94670c044f03043a2da69b915a1118a18d;matheuscascao <matheusfranco23@hotmail.com>;Wed May 7 17:05:39 2025 -0300;feat: as_5
+0c696a18ac93e51806dde7599f8e1f9286b2a2ed;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Wed Apr 30 17:00:25 2025 -0300;Create definicao_trabalho_final_g5.md
+ebb9ea9a65374124bc31b11a2fe43687df354c20 Merge: 1dc531d 03fbcef;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Apr 26 15:35:43 2025 -0300;Merge branch 'main' into estudante
+03fbcef8f685d850f1e32de7172c38f006cbf5ee;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Apr 26 15:35:30 2025 -0300;update repository
+1dc531da4a337630cdda989d91cd066799ac1ce6;Vitor <vitor_eterno@outlook.com>;Wed Apr 23 17:39:45 2025 -0300;Create ae_aula07_VitorGodoi.md
+17f004a3316598bc3f6ec11568b07387fc00c919;matheuscascao <matheusfranco23@hotmail.com>;Wed Apr 23 17:30:44 2025 -0300;Feat: ativdade 07 - Cascão
+2233be49d4a2a076904d126387c359deb1b10903;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Wed Apr 23 17:14:26 2025 -0300;Create ae_aula_07_202201695_joao.md
+1cab9f5728ce93328c0050f00325de62ba2a05b8;José Carlos Lee <josecarlos_lee@hotmail.com>;Wed Apr 23 17:10:17 2025 -0300;Create ae_aula07_josecarloslee.md
+13a10380c42fa3f7da8b493015afcdd9124ce8fc;Leonardo Moreira <leonardomoreira@discente.ufg.br>;Wed Apr 23 17:05:17 2025 -0300;Create ae_aula07_Leonardo_202201700.md
+95cee4d3f437e12a0a18463d8b0f229dea3b099e;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Apr 18 11:25:27 2025 -0300;update repository
+226f99bb3f179571dbf94aa076f6bde7be6bc83a;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Apr 17 19:02:41 2025 -0300;update repository
+91bfa9d2a1ab06b771b8b5b3624b60549feca834;mentejoao <skhulzxd@gmail.com>;Wed Apr 16 17:36:20 2025 -0300;atividade04
+83a53a38d8a8665635bb8e7c07fe1f75ec09bbf2;mentejoao <skhulzxd@gmail.com>;Thu Apr 10 21:29:22 2025 -0300;analise de requisitos - cenario 1
+6c2ab320b1bb9a47ad26d441410bbdacd8f45772;Leonardo Moreira <leonardomoreira@discente.ufg.br>;Tue Apr 8 19:31:05 2025 -0300;Add files via upload
+5c9ffbb2b88d029211883608f098c02260eae727 Merge: 50549e3 1d78588;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Mar 29 11:49:31 2025 -0300;Merge branch 'estudante'
+1d785885da957dfad48c18ec0bd026d610210084;Vitor <vitor_eterno@outlook.com>;Thu Mar 27 21:32:39 2025 -0300;Create ap-aula4-g5.md
+50549e3a0bd62a7824aa44984b73ee0e99a583e9 Merge: a7b0149 50a981d;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Mar 27 21:02:01 2025 -0300;Merge branch 'estudante'
+50a981d3990eb4f52436b554252ba176c0aa0b4d;akzvitor <vitor_eterno@outlook.com>;Wed Mar 26 14:54:03 2025 -0300;adiciona atividade supervisionada 2
+a7b01494f4b53ebcb38a6db76d36146958e41471 Merge: 117fe8b bfd280e;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Mar 21 18:46:06 2025 -0300;Merge pull request #4 from gilmarUFG/estudante Create ap-aula3-g5.md
+bfd280e0bf3a4191e80497956cadb29ff3612fb3;João Gabriel <106777850+mentejoao@users.noreply.github.com>;Thu Mar 20 21:30:00 2025 -0300;Create ap-aula3-g5.md
+117fe8b05e9076676c0d5f6007ed8e1102d251c4 Merge: 7b0ae77 307d6be;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Mar 14 14:18:19 2025 -0300;Merge branch 'professor' into develop
+307d6be3a0858ba62b2e82b295eb6d47bdd0d074 Merge: b580dd7 033ccdf;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Mar 14 14:17:54 2025 -0300;Merge branch 'estudante' into professor
+033ccdfd79e822550d6a790ff5573a4e632e24eb;Leonardo Moreira <leonardomoreira@discente.ufg.br>;Fri Mar 14 00:43:35 2025 -0300;Update atividade_em_sala_1.md
+e90ee7bbd99ddae1ff4f33d1bf9340b6a16a8812;Leonardo Moreira <leonardomoreira@discente.ufg.br>;Thu Mar 13 21:40:29 2025 -0300;Create atividade_em_sala_1.md
+b580dd708ebf2dadf249bb6e3e55f9912ea734de Merge: 6bc5a14 cee8f3c;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 18:26:34 2025 -0300;Merge branch 'main' into professor
+ef0d9ebd7ec1e84a218a78d7fdfd8f288cf9ae73 Merge: 6096ccc cee8f3c;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 18:26:17 2025 -0300;Merge branch 'main' into estudante
+7b0ae77e4dfe47581625dbf554231c59a9a94c8b Merge: 23123c8 cee8f3c;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 18:25:57 2025 -0300;Merge branch 'main' into develop
+cee8f3c9726b552544299f05c9b2c497ee72a7ab;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 17:07:02 2025 -0300;Update README.md file.
+6bc5a14139a2d704ded57881274f5047f2416be7 Merge: ddfe7d2 6096ccc;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 14:16:30 2025 -0300;Merge pull request #3 from gilmarUFG/estudante Estudante
+6096cccad2f3aec92b9a57b5dd46d58798878032 Merge: ddfe7d2 23123c8;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 14:15:41 2025 -0300;Merge pull request #2 from gilmarUFG/develop Develop
+23123c869440b61548e6ffebb5e1012068e7561b Merge: ddfe7d2 16cc24b;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 14:14:57 2025 -0300;Merge pull request #1 from gilmarUFG/main Update README.md
+16cc24bceebeb3eade564a74023d5541597b6f09;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 14:14:16 2025 -0300;Update README.md update README.md
+ddfe7d21bf8561788c215dcb417f9ed98a11913b;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 14:09:43 2025 -0300;Initial commit
